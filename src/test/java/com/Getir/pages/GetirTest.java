@@ -1,4 +1,4 @@
-package com.Getir.tests;
+package com.Getir.pages;
 
 import io.restassured.RestAssured;
 import io.restassured.matcher.ResponseAwareMatcher;

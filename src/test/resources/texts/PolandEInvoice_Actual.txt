@@ -1,0 +1,24 @@
+The National System of e-Invoices is a platform intended for issuing and receiving invoices by electronic means. open_in_newInformation about the National System of e-Invoices
+error_outline
+NOTE – this is the production environment of the National System of e-Invoices
+Starting from 1 January 2022, you can issue your invoices electronically in the National System of e-Invoices.
+Each invoice will be assigned a unique number meaning that it has been introduced into legal circulation.
+You can correct only structured invoices originally issued in the National System of e-Invoices.
+Documentation
+Release note
+KSeF Interface Specification
+Limit values
+Exception messages
+Exception codes map 1.0.3 -> 1.1.0
+Logical structures
+Logical structure of the batch transmission initialization
+Logical structure of interactive interfaces authorization
+Official Receipt Certificate (UPO)
+OpenApi Documentation
+Batch Transmission Contract
+Common interfaces contract
+Interactive interfaces contract
+Public Key
+Public key of the production environment
+Public key of the production environment (PEM)
+Public key of the production environment (DER)

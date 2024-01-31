@@ -1,0 +1,32 @@
+Informații tehnice - eTransport
+De pe data de 17.02.2023 se pot transmite prin upload-ul cu parametrul de versiune și fișiere XML versiunea 2. Se acceptă în continuare fișierele XML versiunea 1
+Prezentare servicii API
+Serviciul de Descărcare a fost eliminat de pe mediul de test și cel de producție. Serviciul Lista a fost modificat - vă rugăm să parcurgeți documentația tip swagger publicată.
+Se poate folosi și serviciul de Stare, care a rămas nemodificat la fel ca și cel de Upload pentru a afla situația declarației transmise.
+Prezentare swagger API
+Upload
+Lista
+Stare
+Upload cu parametrul de versiune
+ Specificații tehnice:
+Notă:
+XML-urile v1 valide pot fi transmise în continuare fără probleme, sistemul funcţionând ca şi până acum.
+Cele două versiuni vor coexista o perioadă de timp, momentul în care fişierele XML v1 nu vor mai putea fi recepţionate urmând a fi anunţat ulterior.
+Versiunea 2
+Structura fișierului - xls
+Schema - xsd - 26.01.2023 - modificare definiții tipuri caracter din string în token și introducere restricție minLength=1
+Schematron - v.2.0.1 - 08.02.2023 - s-a eliminat regula BR-47; s-au corectat regulile BR-020; BR-068; s-au adaugat regulile BR-216, BR-217, BR-218
+Versiunea 1
+Pentru transmiterea notificării e-Transport, mediul de TEST
+Schematron - v1.0.4 -11.08.2022 - Corectarea mesajului de eroare la regula BR-070
+Structura fișierului - xls
+Schema - xsd - 26.01.2023 - modificare definiții tipuri caracter din string în token și introducere restricție minLength=1
+Exemple
+exemple_v2_aic_ttn.zip
+notificare_1807.xml
+confirmare_1603.xml
+corectie_1807.xml
+corectie_2503_err.xml
+stergere_1603.xml
+
+
